@@ -5,6 +5,8 @@ def pascal_triangle(n):
     """
     Return pascal triangle
     """
+    if n < 0:
+        return []
     list1 = []
     for i in range(n):
         list1.append([])
