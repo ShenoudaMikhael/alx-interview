@@ -1,9 +1,8 @@
 #!/usr/bin/python3
 """0-validate_utf8"""
-from typing import List
 
 
-def validUTF8(data: List[int]) -> bool:
+def validUTF8(data):
     """validUTF8 function"""
 
     num_of_bytes = 0
